@@ -199,6 +199,8 @@ button {
 p {
     font-weight: normal;
     line-height: 1.7;
+	word-wrap:break-word; 
+	text-align:justify;
 }
 
 .padding {
@@ -262,6 +264,11 @@ p {
 
 .bottom10 {
     margin-bottom: 10px;
+}
+
+.bottom10a {
+    margin-bottom: 10px;
+	padding-left:180px;
 }
 
 .top5 {
@@ -385,7 +392,7 @@ p {
 }
 
 .font-xlight {
-    font-weight: 100;
+	font-weight: 100;
 }
 
 .font-bold {
@@ -462,12 +469,20 @@ p {
 .darkcolor {
     color: #002e5b;
 }
+.darkcolor2 {
+    color: #002e5b;
+	padding-left:180px;
+}
 .bg-dark {
     background: #002e5b !important;
 }
 
 .defaultcolor {
     color: #fde428;
+}
+.defaultcolor2 {
+    color: #fde428;
+	padding-left:180px;
 }
 .bg-yellow {
     background: #fde428;
